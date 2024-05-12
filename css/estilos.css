@@ -112,3 +112,106 @@ h2{
 .columna{
     padding: 20px;
 }
+
+.portafolio{
+    height: 424px;
+    background-color: #FFD233;
+}
+
+.portafolio h2{
+    text-align: center;
+}
+
+.portafolio div{
+    
+}
+
+.fila-portafolio{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    justify-self: flex-start;
+    width: 140px;
+    margin: 5px;
+}
+
+.clientes{
+    background-color: #3F4E62;
+    height: 258px;
+}
+
+.clientes h2{
+    text-align: center;
+    color: #ADFF28;
+}
+
+.clientes div{
+    display: flex;
+    justify-content: center;
+}
+
+.clientes div img{
+    width: 178px;
+}
+
+.contacto{
+    background-color: #1687A0;
+    height: 578px;
+}
+
+.contacto h2{
+    color: #FF1B1B;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+  }
+  .formulario{
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .form-group .input-field {
+    width: calc(50% - 10px);
+  }
+
+  .form-group .input-field:last-child {
+    width: 100%;
+  }
+
+  .input-field {
+    margin-bottom: 10px;
+  }
+
+  .input-field input {
+    width: 363px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .form-group .input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
